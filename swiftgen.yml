@@ -1,0 +1,19 @@
+
+input_dir: CashAppPayKitiOSSampleApp/
+output_dir: CashAppPayKitiOSSampleApp/Generated
+
+
+strings:
+  inputs: Base.lproj
+  outputs:
+    - templateName: structured-swift5
+      output: Strings.swift
+xcassets:
+  inputs:
+    - Resources/Images.xcassets
+    - Resources/Colors.xcassets
+    - Resources/Assets.xcassets
+  outputs:
+    - templateName: swift5
+      output: Assets.swift
+

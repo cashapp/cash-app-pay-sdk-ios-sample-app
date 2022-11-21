@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FA489A9A782D1158F430B16 /* Pods_CashAppPayKitiOSSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE880E5EB4B66708CD1D798D /* Pods_CashAppPayKitiOSSampleApp.framework */; };
+		5F7A357E292C1CC5003E4478 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A357D292C1CC5003E4478 /* AppDelegate.swift */; };
+		5F7A3580292C1CC5003E4478 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A357F292C1CC5003E4478 /* SceneDelegate.swift */; };
+		5F7A3582292C1CC5003E4478 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A3581292C1CC5003E4478 /* ProductDetailsViewController.swift */; };
+		5F7A3587292C1CC6003E4478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F7A3586292C1CC6003E4478 /* Assets.xcassets */; };
+		5F7A358A292C1CC6003E4478 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7A3588292C1CC6003E4478 /* LaunchScreen.storyboard */; };
+		5F7A35B2292C1EAC003E4478 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A35B0292C1EAC003E4478 /* Assets.swift */; };
+		5F7A35B3292C1EAC003E4478 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A35B1292C1EAC003E4478 /* Strings.swift */; };
+		5F7A35BB292C265E003E4478 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F7A35B9292C265E003E4478 /* Localizable.strings */; };
+		5F7A35BD292C2773003E4478 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F7A35BC292C2773003E4478 /* Colors.xcassets */; };
+		5F7A35C0292C2782003E4478 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F7A35BF292C2782003E4478 /* Images.xcassets */; };
+		5F7A35C5292C2C27003E4478 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A35C4292C2C27003E4478 /* Spacing.swift */; };
+		5F7A35C7292C5B11003E4478 /* Sizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A35C6292C5B11003E4478 /* Sizing.swift */; };
+		5F7A35CB292C5B6C003E4478 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A35CA292C5B6C003E4478 /* Product.swift */; };
+		5F7A35CE292C5C3E003E4478 /* NumberFormatter+Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A35CD292C5C3E003E4478 /* NumberFormatter+Currency.swift */; };
+		5F7A35D3292C5E24003E4478 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A35D2292C5E24003E4478 /* Fonts.swift */; };
+		5F7A35D8292C751C003E4478 /* FooterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A35D7292C751C003E4478 /* FooterButtonView.swift */; };
+		5F7A35DA292D0E80003E4478 /* NSAttributedString+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A35D9292D0E80003E4478 /* NSAttributedString+Font.swift */; };
+		5F7A35DC292D1412003E4478 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A35DB292D1412003E4478 /* CartViewController.swift */; };
+		5F7A35EA292D7C98003E4478 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A35E9292D7C98003E4478 /* PaymentView.swift */; };
+		5F7A35EC292D7CAD003E4478 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A35EB292D7CAD003E4478 /* ContactView.swift */; };
+		5F7A35EE292D7CCC003E4478 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A35ED292D7CCC003E4478 /* CartView.swift */; };
+		5F7A35F0292EA28B003E4478 /* PaymentConfirmationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A35EF292EA28B003E4478 /* PaymentConfirmationController.swift */; };
+		5F7A35F2292EA383003E4478 /* LoadingSpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A35F1292EA383003E4478 /* LoadingSpinnerView.swift */; };
+		5F7A35F4292EB073003E4478 /* PaymentConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A35F3292EB073003E4478 /* PaymentConfirmationView.swift */; };
+		5F7A35FA292FBB31003E4478 /* GrantAcceptanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A35F9292FBB31003E4478 /* GrantAcceptanceViewController.swift */; };
+		5F7A35FC292FBB3D003E4478 /* GrantAcceptanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A35FB292FBB3D003E4478 /* GrantAcceptanceView.swift */; };
+		5F7A3600292FF818003E4478 /* ProductDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A35FF292FF818003E4478 /* ProductDetailsView.swift */; };
+		5FA857A229970AB90034D9AB /* PayKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5FA857A129970AB90034D9AB /* PayKit */; };
+		5FA857A429970AB90034D9AB /* PayKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 5FA857A329970AB90034D9AB /* PayKitUI */; };
+		5FE4114C293018E4000DC396 /* NavigationTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4114B293018E4000DC396 /* NavigationTitleView.swift */; };
+		5FE4114E293019A8000DC396 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4114D293019A8000DC396 /* LogoView.swift */; };
+		5FE4115129311449000DC396 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4115029311449000DC396 /* Appearance.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53F55168FABB48E814697F9C /* Pods-CashAppPayKitiOSSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashAppPayKitiOSSampleApp.release.xcconfig"; path = "Target Support Files/Pods-CashAppPayKitiOSSampleApp/Pods-CashAppPayKitiOSSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		5F7A357A292C1CC5003E4478 /* CashAppPayKitiOSSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashAppPayKitiOSSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F7A357D292C1CC5003E4478 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F7A357F292C1CC5003E4478 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5F7A3581292C1CC5003E4478 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		5F7A3586292C1CC6003E4478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F7A3589292C1CC6003E4478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F7A358B292C1CC6003E4478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F7A35B0292C1EAC003E4478 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		5F7A35B1292C1EAC003E4478 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		5F7A35BA292C265E003E4478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = CashAppPayKitiOSSampleApp/Base.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		5F7A35BC292C2773003E4478 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		5F7A35BF292C2782003E4478 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5F7A35C1292C285D003E4478 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = ../en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5F7A35C4292C2C27003E4478 /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
+		5F7A35C6292C5B11003E4478 /* Sizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizing.swift; sourceTree = "<group>"; };
+		5F7A35CA292C5B6C003E4478 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		5F7A35CD292C5C3E003E4478 /* NumberFormatter+Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Currency.swift"; sourceTree = "<group>"; };
+		5F7A35D2292C5E24003E4478 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		5F7A35D7292C751C003E4478 /* FooterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterButtonView.swift; sourceTree = "<group>"; };
+		5F7A35D9292D0E80003E4478 /* NSAttributedString+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Font.swift"; sourceTree = "<group>"; };
+		5F7A35DB292D1412003E4478 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		5F7A35E9292D7C98003E4478 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		5F7A35EB292D7CAD003E4478 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		5F7A35ED292D7CCC003E4478 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		5F7A35EF292EA28B003E4478 /* PaymentConfirmationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmationController.swift; sourceTree = "<group>"; };
+		5F7A35F1292EA383003E4478 /* LoadingSpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingSpinnerView.swift; sourceTree = "<group>"; };
+		5F7A35F3292EB073003E4478 /* PaymentConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmationView.swift; sourceTree = "<group>"; };
+		5F7A35F9292FBB31003E4478 /* GrantAcceptanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrantAcceptanceViewController.swift; sourceTree = "<group>"; };
+		5F7A35FB292FBB3D003E4478 /* GrantAcceptanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrantAcceptanceView.swift; sourceTree = "<group>"; };
+		5F7A35FF292FF818003E4478 /* ProductDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsView.swift; sourceTree = "<group>"; };
+		5FE4114B293018E4000DC396 /* NavigationTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleView.swift; sourceTree = "<group>"; };
+		5FE4114D293019A8000DC396 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		5FE4115029311449000DC396 /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
+		CA8FEE3FEFDA919B6DD67135 /* Pods-CashAppPayKitiOSSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashAppPayKitiOSSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-CashAppPayKitiOSSampleApp/Pods-CashAppPayKitiOSSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DE880E5EB4B66708CD1D798D /* Pods_CashAppPayKitiOSSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashAppPayKitiOSSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F7A3577292C1CC5003E4478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA857A429970AB90034D9AB /* PayKitUI in Frameworks */,
+				5FA857A229970AB90034D9AB /* PayKit in Frameworks */,
+				0FA489A9A782D1158F430B16 /* Pods_CashAppPayKitiOSSampleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F7A3571292C1CC5003E4478 = {
+			isa = PBXGroup;
+			children = (
+				5F7A357C292C1CC5003E4478 /* CashAppPayKitiOSSampleApp */,
+				5F7A357B292C1CC5003E4478 /* Products */,
+				DF4D916B04F8412A42DE3E06 /* Pods */,
+				DA1CCDCC26143A7C34AD123C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F7A357B292C1CC5003E4478 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F7A357A292C1CC5003E4478 /* CashAppPayKitiOSSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F7A357C292C1CC5003E4478 /* CashAppPayKitiOSSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				5F7A357D292C1CC5003E4478 /* AppDelegate.swift */,
+				5F7A357F292C1CC5003E4478 /* SceneDelegate.swift */,
+				5FE4114F29311426000DC396 /* Appearance */,
+				5F7A35AF292C1D74003E4478 /* Resources */,
+				5F7A35AE292C1D6C003E4478 /* Generated */,
+				5F7A35C3292C2C14003E4478 /* Metrics */,
+				5F7A35C8292C5B22003E4478 /* Controllers */,
+				5F7A35C9292C5B51003E4478 /* Models */,
+				5F7A35CC292C5C17003E4478 /* Extensions */,
+				5F7A35D6292C750C003E4478 /* Views */,
+				5F7A3588292C1CC6003E4478 /* LaunchScreen.storyboard */,
+				5F7A358B292C1CC6003E4478 /* Info.plist */,
+			);
+			path = CashAppPayKitiOSSampleApp;
+			sourceTree = "<group>";
+		};
+		5F7A35AE292C1D6C003E4478 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				5F7A35B0292C1EAC003E4478 /* Assets.swift */,
+				5F7A35B1292C1EAC003E4478 /* Strings.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		5F7A35AF292C1D74003E4478 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5F7A35B9292C265E003E4478 /* Localizable.strings */,
+				5F7A3586292C1CC6003E4478 /* Assets.xcassets */,
+				5F7A35BC292C2773003E4478 /* Colors.xcassets */,
+				5F7A35BF292C2782003E4478 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5F7A35C3292C2C14003E4478 /* Metrics */ = {
+			isa = PBXGroup;
+			children = (
+				5F7A35C4292C2C27003E4478 /* Spacing.swift */,
+				5F7A35C6292C5B11003E4478 /* Sizing.swift */,
+			);
+			path = Metrics;
+			sourceTree = "<group>";
+		};
+		5F7A35C8292C5B22003E4478 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F7A3581292C1CC5003E4478 /* ProductDetailsViewController.swift */,
+				5F7A35DB292D1412003E4478 /* CartViewController.swift */,
+				5F7A35EF292EA28B003E4478 /* PaymentConfirmationController.swift */,
+				5F7A35F9292FBB31003E4478 /* GrantAcceptanceViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5F7A35C9292C5B51003E4478 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F7A35CA292C5B6C003E4478 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F7A35CC292C5C17003E4478 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5F7A35D2292C5E24003E4478 /* Fonts.swift */,
+				5F7A35CD292C5C3E003E4478 /* NumberFormatter+Currency.swift */,
+				5F7A35D9292D0E80003E4478 /* NSAttributedString+Font.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5F7A35D6292C750C003E4478 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F7A35D7292C751C003E4478 /* FooterButtonView.swift */,
+				5F7A35E9292D7C98003E4478 /* PaymentView.swift */,
+				5F7A35EB292D7CAD003E4478 /* ContactView.swift */,
+				5F7A35ED292D7CCC003E4478 /* CartView.swift */,
+				5F7A35F1292EA383003E4478 /* LoadingSpinnerView.swift */,
+				5F7A35F3292EB073003E4478 /* PaymentConfirmationView.swift */,
+				5F7A35FB292FBB3D003E4478 /* GrantAcceptanceView.swift */,
+				5F7A35FF292FF818003E4478 /* ProductDetailsView.swift */,
+				5FE4114B293018E4000DC396 /* NavigationTitleView.swift */,
+				5FE4114D293019A8000DC396 /* LogoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5FE4114F29311426000DC396 /* Appearance */ = {
+			isa = PBXGroup;
+			children = (
+				5FE4115029311449000DC396 /* Appearance.swift */,
+			);
+			path = Appearance;
+			sourceTree = "<group>";
+		};
+		DA1CCDCC26143A7C34AD123C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE880E5EB4B66708CD1D798D /* Pods_CashAppPayKitiOSSampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF4D916B04F8412A42DE3E06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA8FEE3FEFDA919B6DD67135 /* Pods-CashAppPayKitiOSSampleApp.debug.xcconfig */,
+				53F55168FABB48E814697F9C /* Pods-CashAppPayKitiOSSampleApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F7A3579292C1CC5003E4478 /* CashAppPayKitiOSSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F7A35A4292C1CC6003E4478 /* Build configuration list for PBXNativeTarget "CashAppPayKitiOSSampleApp" */;
+			buildPhases = (
+				89A95DA3CD0008D0698E3716 /* [CP] Check Pods Manifest.lock */,
+				5F7A35AD292C1D2E003E4478 /* Swiftgen */,
+				5FA8579F2996F70B0034D9AB /* SwiftLint */,
+				5F7A3576292C1CC5003E4478 /* Sources */,
+				5F7A3577292C1CC5003E4478 /* Frameworks */,
+				5F7A3578292C1CC5003E4478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CashAppPayKitiOSSampleApp;
+			packageProductDependencies = (
+				5FA857A129970AB90034D9AB /* PayKit */,
+				5FA857A329970AB90034D9AB /* PayKitUI */,
+			);
+			productName = CashAppPayKitiOSSampleApp;
+			productReference = 5F7A357A292C1CC5003E4478 /* CashAppPayKitiOSSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F7A3572292C1CC5003E4478 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					5F7A3579292C1CC5003E4478 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 5F7A3575292C1CC5003E4478 /* Build configuration list for PBXProject "CashAppPayKitiOSSampleApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F7A3571292C1CC5003E4478;
+			packageReferences = (
+				5FA857A029970AB90034D9AB /* XCRemoteSwiftPackageReference "cash-app-pay-ios-sdk" */,
+			);
+			productRefGroup = 5F7A357B292C1CC5003E4478 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F7A3579292C1CC5003E4478 /* CashAppPayKitiOSSampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F7A3578292C1CC5003E4478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7A35BD292C2773003E4478 /* Colors.xcassets in Resources */,
+				5F7A358A292C1CC6003E4478 /* LaunchScreen.storyboard in Resources */,
+				5F7A35BB292C265E003E4478 /* Localizable.strings in Resources */,
+				5F7A35C0292C2782003E4478 /* Images.xcassets in Resources */,
+				5F7A3587292C1CC6003E4478 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F7A35AD292C1D2E003E4478 /* Swiftgen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftgen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" \nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi\n";
+		};
+		5FA8579F2996F70B0034D9AB /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ -f \"${PODS_ROOT}/SwiftLint/swiftlint\" ]]; then\n  \"${PODS_ROOT}/SwiftLint/swiftlint\" \nelse\n  echo \"warning: SwiftLint is not installed. Run 'pod install --repo-update' to install it.\"\nfi\n";
+		};
+		89A95DA3CD0008D0698E3716 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CashAppPayKitiOSSampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F7A3576292C1CC5003E4478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7A3582292C1CC5003E4478 /* ProductDetailsViewController.swift in Sources */,
+				5F7A35D3292C5E24003E4478 /* Fonts.swift in Sources */,
+				5F7A35F2292EA383003E4478 /* LoadingSpinnerView.swift in Sources */,
+				5FE4114C293018E4000DC396 /* NavigationTitleView.swift in Sources */,
+				5F7A35CB292C5B6C003E4478 /* Product.swift in Sources */,
+				5FE4115129311449000DC396 /* Appearance.swift in Sources */,
+				5F7A35EA292D7C98003E4478 /* PaymentView.swift in Sources */,
+				5F7A35CE292C5C3E003E4478 /* NumberFormatter+Currency.swift in Sources */,
+				5F7A35C5292C2C27003E4478 /* Spacing.swift in Sources */,
+				5F7A357E292C1CC5003E4478 /* AppDelegate.swift in Sources */,
+				5F7A35DC292D1412003E4478 /* CartViewController.swift in Sources */,
+				5F7A35D8292C751C003E4478 /* FooterButtonView.swift in Sources */,
+				5F7A35C7292C5B11003E4478 /* Sizing.swift in Sources */,
+				5F7A35B3292C1EAC003E4478 /* Strings.swift in Sources */,
+				5FE4114E293019A8000DC396 /* LogoView.swift in Sources */,
+				5F7A35B2292C1EAC003E4478 /* Assets.swift in Sources */,
+				5F7A3580292C1CC5003E4478 /* SceneDelegate.swift in Sources */,
+				5F7A35F0292EA28B003E4478 /* PaymentConfirmationController.swift in Sources */,
+				5F7A35F4292EB073003E4478 /* PaymentConfirmationView.swift in Sources */,
+				5F7A35FC292FBB3D003E4478 /* GrantAcceptanceView.swift in Sources */,
+				5F7A3600292FF818003E4478 /* ProductDetailsView.swift in Sources */,
+				5F7A35FA292FBB31003E4478 /* GrantAcceptanceViewController.swift in Sources */,
+				5F7A35EC292D7CAD003E4478 /* ContactView.swift in Sources */,
+				5F7A35EE292D7CCC003E4478 /* CartView.swift in Sources */,
+				5F7A35DA292D0E80003E4478 /* NSAttributedString+Font.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F7A3588292C1CC6003E4478 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F7A3589292C1CC6003E4478 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5F7A35B9292C265E003E4478 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F7A35BA292C265E003E4478 /* Base */,
+				5F7A35C1292C285D003E4478 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F7A35A2292C1CC6003E4478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F7A35A3292C1CC6003E4478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F7A35A5292C1CC6003E4478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA8FEE3FEFDA919B6DD67135 /* Pods-CashAppPayKitiOSSampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25247V276L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CashAppPayKitiOSSampleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = block.CashAppPayKitiOSSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F7A35A6292C1CC6003E4478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53F55168FABB48E814697F9C /* Pods-CashAppPayKitiOSSampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25247V276L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CashAppPayKitiOSSampleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = block.CashAppPayKitiOSSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F7A3575292C1CC5003E4478 /* Build configuration list for PBXProject "CashAppPayKitiOSSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F7A35A2292C1CC6003E4478 /* Debug */,
+				5F7A35A3292C1CC6003E4478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F7A35A4292C1CC6003E4478 /* Build configuration list for PBXNativeTarget "CashAppPayKitiOSSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F7A35A5292C1CC6003E4478 /* Debug */,
+				5F7A35A6292C1CC6003E4478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5FA857A029970AB90034D9AB /* XCRemoteSwiftPackageReference "cash-app-pay-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:cashapp/cash-app-pay-ios-sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5FA857A129970AB90034D9AB /* PayKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5FA857A029970AB90034D9AB /* XCRemoteSwiftPackageReference "cash-app-pay-ios-sdk" */;
+			productName = PayKit;
+		};
+		5FA857A329970AB90034D9AB /* PayKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5FA857A029970AB90034D9AB /* XCRemoteSwiftPackageReference "cash-app-pay-ios-sdk" */;
+			productName = PayKitUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5F7A3572292C1CC5003E4478 /* Project object */;
+}

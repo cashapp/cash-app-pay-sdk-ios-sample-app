@@ -1,0 +1,50 @@
+/* The button title for adding the product to the cart */
+"addToCart" = "Add To Cart";
+
+/* The button title to continue to checkout */
+"continueToCheckout" = "Continue To Checkout";
+
+/* The button title to place the order from the cart */
+"placeOrder" = "Place Order";
+
+/* The title of the order summary section in the cart */
+"cart.orderSummary" = "ORDER SUMMARY";
+
+/* The label for the contact of the current cart */
+"cart.contact" = "CONTACT";
+
+/* The label for the payment of the current cart */
+"cart.payment" = "PAYMENT";
+
+/* The label for the subtotal of the current cart */
+"cart.subtotal" = "Subtotal";
+
+/* The label for the taxes on the current cart */
+"cart.taxes" = "Taxes";
+
+/* The label for the total of the current cart */
+"cart.total" = "Total";
+
+/* The text for contact informations */
+"cart.contact.details" = "By providing your phone number, you agree to receive text messages related to your order. Standard message rates may apply. Reply STOP to opt out of receiving any future text messages related to your order.";
+
+/* The subtitle of the payments section */
+"cart.payment.subtitle" = "All transactions are secure and encrypted";
+
+/* Title of the pay later row in checkout */
+"cart.payment.payLater" = "Pay later with Afterpay";
+
+/* Title of the add card row in checkout */
+"cart.payment.addCard" = "Add Credit/Debit card";
+
+/* Title of the Cash App Pay section the payments */
+"cart.payment.cashAppPay" = "Cash App Pay";
+
+/* Title of the payment added method where the parameter is the name of the payment method */
+"confirmation.paymentAdded" = "Payment method added %@";
+
+/* Subtitle of the grant acceptance screen */
+"grantAcceptance.orderInProgress" = "Order in Progress";
+
+/* On the grant acceptance screen instructions where to continue the order. The parameter is the name of the app */
+"grantAcceptance.continueOrder" = "Continue on %@ to place your order.";
