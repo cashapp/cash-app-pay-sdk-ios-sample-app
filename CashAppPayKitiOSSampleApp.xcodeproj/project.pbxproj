@@ -628,7 +628,7 @@
 			repositoryURL = "git@github.com:cashapp/cash-app-pay-ios-sdk.git";
 			requirement = {
 				kind = exactVersion;
-				version = 0.1.0;
+				version = 0.3.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
