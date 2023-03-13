@@ -25,8 +25,8 @@ protocol PaymentConfirmationControllerDelegate: AnyObject {
 
 final class PaymentConfirmationController: UIViewController {
 
-    private lazy var sdk: PayKit = {
-        let sdk = PayKit(clientID: CartViewController.sandboxClientID, endpoint: .sandbox)
+    private lazy var sdk: CashAppPay = {
+        let sdk = CashAppPay(clientID: CartViewController.sandboxClientID, endpoint: .sandbox)
         sdk.addObserver(self)
         return sdk
     }()
@@ -72,8 +72,8 @@ final class PaymentConfirmationController: UIViewController {
     }
 }
 
-extension PaymentConfirmationController: PayKitObserver {
-    func stateDidChange(to state: PayKitState) {
+extension PaymentConfirmationController: CashAppPayObserver {
+    func stateDidChange(to state: CashAppPayState) {
         switch state {
         case .notStarted, .creatingCustomerRequest, .updatingCustomerRequest, .redirecting, .polling:
             break
