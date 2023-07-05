@@ -75,7 +75,7 @@ final class PaymentConfirmationController: UIViewController {
 extension PaymentConfirmationController: CashAppPayObserver {
     func stateDidChange(to state: CashAppPayState) {
         switch state {
-        case .notStarted, .creatingCustomerRequest, .updatingCustomerRequest, .redirecting, .polling:
+        case .notStarted, .creatingCustomerRequest, .updatingCustomerRequest, .redirecting, .polling, .refreshing:
             break
         case .apiError, .integrationError, .networkError, .unexpectedError:
             break
